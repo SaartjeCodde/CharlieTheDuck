@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Game Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Game Files\Enemies">
+      <UniqueIdentifier>{cd3508ca-70ba-4f3f-8cd8-97d74539b2f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Enemies\Derived">
+      <UniqueIdentifier>{91016837-5c5d-43e2-9d2a-40aadcda6daf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Charlie">
+      <UniqueIdentifier>{3fd8496d-b084-4dae-90b9-26e0d6d887be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\HUD">
+      <UniqueIdentifier>{32691579-8853-4e29-9fd1-786abfed0bf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Item related">
+      <UniqueIdentifier>{52414234-c888-440e-9c55-fe698746e70b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Item related\Derived">
+      <UniqueIdentifier>{12a2060c-8cc4-466a-a9a3-01a616bc00a6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AbstractGame.cpp">
+      <Filter>Engine Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>Engine Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWinMain.cpp">
+      <Filter>Engine Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CharlieTheDuck.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyList.cpp">
+      <Filter>Game Files\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Game Files\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemList.cpp">
+      <Filter>Game Files\Item related</Filter>
+    </ClCompile>
+    <ClCompile Include="Bee.cpp">
+      <Filter>Game Files\Enemies\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="FlatThingy.cpp">
+      <Filter>Game Files\Enemies\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="Frog.cpp">
+      <Filter>Game Files\Enemies\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Game Files\Item related</Filter>
+    </ClCompile>
+    <ClCompile Include="Coin.cpp">
+      <Filter>Game Files\Item related\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="Heart.cpp">
+      <Filter>Game Files\Item related\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="Diamond.cpp">
+      <Filter>Game Files\Item related\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="Charlie.cpp">
+      <Filter>Game Files\Charlie</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Game Files\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>Game Files\Item related</Filter>
+    </ClCompile>
+    <ClCompile Include="EndLevel.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BouncingBox.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AbstractGame.h">
+      <Filter>Engine Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine.h">
+      <Filter>Engine Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWinMain.h">
+      <Filter>Engine Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CharlieTheDuck.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyList.h">
+      <Filter>Game Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Game Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemList.h">
+      <Filter>Game Files\Item related</Filter>
+    </ClInclude>
+    <ClInclude Include="Bee.h">
+      <Filter>Game Files\Enemies\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="FlatThingy.h">
+      <Filter>Game Files\Enemies\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="Frog.h">
+      <Filter>Game Files\Enemies\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Game Files\Item related</Filter>
+    </ClInclude>
+    <ClInclude Include="Coin.h">
+      <Filter>Game Files\Item related\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="Heart.h">
+      <Filter>Game Files\Item related\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="Diamond.h">
+      <Filter>Game Files\Item related\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="Charlie.h">
+      <Filter>Game Files\Charlie</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>Game Files\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>Game Files\Item related</Filter>
+    </ClInclude>
+    <ClInclude Include="EndLevel.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BouncingBox.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="big.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CharlieTheDuck.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

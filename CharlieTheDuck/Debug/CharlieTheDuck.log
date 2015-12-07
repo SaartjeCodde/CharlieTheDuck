@@ -1,0 +1,74 @@
+﻿Build started 3/04/2014 9:13:22.
+     1>Project "C:\Users\Ingrid\Desktop\1DAE5_Codde_Saartje\1DAE5_Codde_Saartje\CODE\CharlieTheDuck\CharlieTheDuck.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt AbstractGame.cpp Bee.cpp BouncingBox.cpp Box.cpp Charlie.cpp CharlieTheDuck.cpp Coin.cpp Diamond.cpp EndLevel.cpp Enemy.cpp EnemyList.cpp FlatThingy.cpp Frog.cpp GameEngine.cpp GameWinMain.cpp Heart.cpp HUD.cpp Item.cpp ItemList.cpp
+         ItemList.cpp
+     1>c:\users\ingrid\desktop\1dae5_codde_saartje\1dae5_codde_saartje\code\charlietheduck\itemlist.cpp(162): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         Item.cpp
+         HUD.cpp
+     1>c:\users\ingrid\desktop\1dae5_codde_saartje\1dae5_codde_saartje\code\charlietheduck\hud.cpp(82): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ingrid\desktop\1dae5_codde_saartje\1dae5_codde_saartje\code\charlietheduck\hud.cpp(83): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ingrid\desktop\1dae5_codde_saartje\1dae5_codde_saartje\code\charlietheduck\hud.cpp(85): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ingrid\desktop\1dae5_codde_saartje\1dae5_codde_saartje\code\charlietheduck\hud.cpp(86): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ingrid\desktop\1dae5_codde_saartje\1dae5_codde_saartje\code\charlietheduck\hud.cpp(88): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ingrid\desktop\1dae5_codde_saartje\1dae5_codde_saartje\code\charlietheduck\hud.cpp(89): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ingrid\desktop\1dae5_codde_saartje\1dae5_codde_saartje\code\charlietheduck\hud.cpp(91): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ingrid\desktop\1dae5_codde_saartje\1dae5_codde_saartje\code\charlietheduck\hud.cpp(93): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         Heart.cpp
+     1>c:\users\ingrid\desktop\1dae5_codde_saartje\1dae5_codde_saartje\code\charlietheduck\heart.cpp(68): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         GameWinMain.cpp
+         GameEngine.cpp
+         Frog.cpp
+     1>c:\users\ingrid\desktop\1dae5_codde_saartje\1dae5_codde_saartje\code\charlietheduck\frog.cpp(96): warning C4805: '==' : unsafe mix of type 'int' and type 'bool' in operation
+         FlatThingy.cpp
+         EnemyList.cpp
+         Enemy.cpp
+         EndLevel.cpp
+         Diamond.cpp
+     1>c:\users\ingrid\desktop\1dae5_codde_saartje\1dae5_codde_saartje\code\charlietheduck\diamond.cpp(68): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         Coin.cpp
+     1>c:\users\ingrid\desktop\1dae5_codde_saartje\1dae5_codde_saartje\code\charlietheduck\coin.cpp(74): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         CharlieTheDuck.cpp
+     1>c:\users\ingrid\desktop\1dae5_codde_saartje\1dae5_codde_saartje\code\charlietheduck\charlietheduck.cpp(418): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ingrid\desktop\1dae5_codde_saartje\1dae5_codde_saartje\code\charlietheduck\charlietheduck.cpp(419): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ingrid\desktop\1dae5_codde_saartje\1dae5_codde_saartje\code\charlietheduck\charlietheduck.cpp(420): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ingrid\desktop\1dae5_codde_saartje\1dae5_codde_saartje\code\charlietheduck\charlietheduck.cpp(421): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         Charlie.cpp
+         Box.cpp
+     1>c:\users\ingrid\desktop\1dae5_codde_saartje\1dae5_codde_saartje\code\charlietheduck\box.cpp(87): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ingrid\desktop\1dae5_codde_saartje\1dae5_codde_saartje\code\charlietheduck\box.cpp(158): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ingrid\desktop\1dae5_codde_saartje\1dae5_codde_saartje\code\charlietheduck\box.cpp(188): warning C4553: '==' : operator has no effect; did you intend '='?
+         BouncingBox.cpp
+     1>c:\users\ingrid\desktop\1dae5_codde_saartje\1dae5_codde_saartje\code\charlietheduck\bouncingbox.cpp(54): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         Bee.cpp
+         AbstractGame.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\CharlieTheDuck.res" CharlieTheDuck.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ingrid\Desktop\1DAE5_Codde_Saartje\1DAE5_Codde_Saartje\CODE\CharlieTheDuck\Debug\CharlieTheDuck.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Ingrid\Desktop\1DAE5_Codde_Saartje\1DAE5_Codde_Saartje\CODE\CharlieTheDuck\Debug\CharlieTheDuck.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ingrid\Desktop\1DAE5_Codde_Saartje\1DAE5_Codde_Saartje\CODE\CharlieTheDuck\Debug\CharlieTheDuck.lib" /MACHINE:X86 Debug\CharlieTheDuck.res
+         Debug\AbstractGame.obj
+         Debug\Bee.obj
+         Debug\BouncingBox.obj
+         Debug\Box.obj
+         Debug\Charlie.obj
+         Debug\CharlieTheDuck.obj
+         Debug\Coin.obj
+         Debug\Diamond.obj
+         Debug\EndLevel.obj
+         Debug\Enemy.obj
+         Debug\EnemyList.obj
+         Debug\FlatThingy.obj
+         Debug\Frog.obj
+         Debug\GameEngine.obj
+         Debug\GameWinMain.obj
+         Debug\Heart.obj
+         Debug\HUD.obj
+         Debug\Item.obj
+         Debug\ItemList.obj
+         CharlieTheDuck.vcxproj -> C:\Users\Ingrid\Desktop\1DAE5_Codde_Saartje\1DAE5_Codde_Saartje\CODE\CharlieTheDuck\Debug\CharlieTheDuck.exe
+     1>Done Building Project "C:\Users\Ingrid\Desktop\1DAE5_Codde_Saartje\1DAE5_Codde_Saartje\CODE\CharlieTheDuck\CharlieTheDuck.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:19.37
